@@ -1,0 +1,25 @@
+{
+  "name": "c2-plugin-ace-table",
+  "version": "0.0.0",
+  "description": "A module to extract ACE table of a plugin",
+  "homepage": "",
+  "author": {
+    "name": "Armaldio",
+    "email": "armaldio@gmail.com",
+    "url": "armaldio.xyz"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "construct2",
+    "ace"
+  ],
+  "repository": "armaldio/c2-plugin-ace-table",
+  "scripts": {
+    "test" : "mocha"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
