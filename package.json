@@ -1,7 +1,7 @@
 {
-  "name": "c2-plugin-ace-table",
-  "version": "0.0.0",
-  "description": "A module to extract ACE table of a plugin",
+  "name": "c2-addon-parser",
+  "version": "0.1.0",
+  "description": "A module to parse Construct 2 addons",
   "homepage": "",
   "author": {
     "name": "Armaldio",
@@ -16,10 +16,18 @@
     "construct2",
     "ace"
   ],
-  "repository": "armaldio/c2-plugin-ace-table",
+  "repository": "armaldio/c2-addon-parser",
   "scripts": {
-    "test" : "mocha"
+    "test": "mocha"
   },
+  "bin": {
+    "acetable": "bin/module.js"
+  },
+  "preferGlobal": true,
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "esprima": "^3.1.1",
+    "jquery": "^3.1.1",
+    "marked": "^0.3.6"
+  }
 }
