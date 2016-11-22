@@ -2,7 +2,6 @@
 
 var c2PluginAceTable = require('../lib/index');
 var marked           = require('marked');
-var $                = require("jquery");
 var path             = require("path");
 
 var args = process.argv;
