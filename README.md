@@ -1,22 +1,37 @@
-# c2-addon-parser [![NPM version][npm-image]][npm-url]
+# Construct 2 Addon parser [![NPM version][npm-image]][npm-url]
 > A module to extract ACE table of a plugin
 
 ## Installation
 
 ```sh
-$ npm install -g c2-addon-parser
+$ npm i -g c2-addon-parser
+$ npm i -S c2-addon-parser
 ```
 
 ## Usage
 
+The plugin can used from both node script or cli
+
 ```js
 var c2PluginAceTable = require('c2-addon-parser');
+var ace = c2PluginAceTable.export(**plugin folder**,{type: **markdown**/**json**});
+```
 
-var ace = c2PluginAceTable.extract({
-    type:"json"
-});
+```bash
+acetable {plugin folder} {export type}
+
+acetable browser markdown > file.md
+
+var ace = c2PluginAceTable.export("browser", {type: "json"});
 console.log(ace)
 ```
+
+## Coming
+* CSV export
+* Behavious
+* Effects
+* Better CLI support
+
 ## License
 
 MIT © [Armaldio](armaldio.xyz)
