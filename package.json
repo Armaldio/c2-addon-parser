@@ -15,7 +15,7 @@
   ],
   "repository": "armaldio/c2-addon-parser",
   "scripts": {
-    "test": "mocha"
+    "test": ""
   },
   "bin": {
     "acetable": "bin/ace.js"
