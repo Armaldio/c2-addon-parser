@@ -14,7 +14,7 @@ The plugin can used from both node script or cli
 
 ```js
 var c2PluginAceTable = require('c2-addon-parser');
-var ace = c2PluginAceTable.export(**plugin folder**,{type: **markdown**/**json**});
+var ace = c2PluginAceTable.export("plugin folder",{type: markdown or json});
 ```
 
 ```bash
