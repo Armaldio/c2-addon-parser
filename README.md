@@ -12,12 +12,12 @@ $ npm i -S c2-addon-parser
 
 The plugin can used from both node script or cli
 
-```js
+```javascript
 var c2PluginAceTable = require('c2-addon-parser');
-var ace = c2PluginAceTable.export("plugin folder",{type: markdown or json});
+var ace = c2PluginAceTable.export("plugin folder", {type: markdown or json});
 ```
 
-```bash
+```sh
 acetable {plugin folder} {export type}
 
 acetable browser markdown > file.md

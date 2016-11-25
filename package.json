@@ -15,6 +15,7 @@
   ],
   "repository": "armaldio/c2-addon-parser",
   "scripts": {
+    "glob-inst": "npm i -g .",
     "test": ""
   },
   "bin": {

@@ -1,4 +1,6 @@
 node_modules
 coverage
 .idea
-/.idea/
+plugins
+export*
+install.bat
