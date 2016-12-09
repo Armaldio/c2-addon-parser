@@ -14,7 +14,7 @@ The plugin can used from both node script or cli
 
 ```javascript
 var c2PluginAceTable = require('c2-addon-parser');
-var ace = c2PluginAceTable.export("plugin folder", {type: markdown or json});
+var ace = c2PluginAceTable.export("plugin folder", {type: html/markdown/json});
 ```
 
 ```sh
@@ -26,8 +26,12 @@ var ace = c2PluginAceTable.export("browser", {type: "json"});
 console.log(ace)
 ```
 
+### Available export 
+* json
+* html
+* markdown
+
 ## Coming
-* CSV export
 * Behavious
 * Effects
 * Better CLI support
