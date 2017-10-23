@@ -50,7 +50,7 @@ acetable -t -d addon_folder
 
 ## License
 
-MIT © [Armaldio](armaldio.xyz)
+MIT © [Armaldio](https://armaldio.xyz)
 
 
 [npm-image]: https://badge.fury.io/js/c2-addon-parser.svg
