@@ -22,13 +22,14 @@ var type = ap.getType("addon folder");
 
 #### **CLI**
 ```sh
+// regular export
 acetable -d addon_folder -e export_type
 
-// use -t to only get the type og the addon
-acetable -t -d {addon folder}
+// export and write file to the addon directory
+acetable -d addon_folder -e export_type -o table.md
 
-acetable -d browser -e json
-acetable -t -d browser
+// use -t to only get the type of the addon
+acetable -t -d addon_folder
 ```
 
 ### Available export 
