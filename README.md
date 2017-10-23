@@ -12,7 +12,7 @@ $ npm i -S c2-addon-parser
 
 The plugin can used from both node script or cli
 
-### **API**
+#### **API**
 ```javascript
 var ap = require('c2-addon-parser');
 var ace = ap.export("addon folder", "html/markdown/json");
@@ -20,7 +20,7 @@ var ace = ap.export("addon folder", "html/markdown/json");
 var type = ap.getType("addon folder");
 ```
 
-### **CLI**
+#### **CLI**
 ```sh
 acetable -d addon_folder -e export_type
 
