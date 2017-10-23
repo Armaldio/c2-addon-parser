@@ -3,4 +3,4 @@ coverage
 .idea
 plugins
 export*
-install.bat
+*.bat
