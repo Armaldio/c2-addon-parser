@@ -28,5 +28,8 @@
     "lodash": "^4.17.2",
     "marked": "^0.3.6",
     "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "np": "^4.0.2"
   }
 }
